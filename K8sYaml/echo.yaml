@@ -33,3 +33,10 @@ spec:
         - "-text=Prod"
         ports:
         - containerPort: 5678
+        resources:
+          limits:
+            cpu: 100m
+            memory: 128Mi
+          requests:
+            cpu: 100m
+            memory: 128Mi
