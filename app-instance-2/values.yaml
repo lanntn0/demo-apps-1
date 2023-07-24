@@ -1,0 +1,21 @@
+replicaCount: 2
+resources:
+  ## Example:
+  limits:
+    cpu: 200m
+    memory: 256Mi
+  # limits: {}
+  ## Examples:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  # requests: {}
+## Apache service parameters
+##
+service:
+  ## @param service.type Apache Service type
+  ##
+  type: ClusterIP
+  ## @param service.ports.http Apache service HTTP port
+  ## @param service.ports.https Apache service HTTPS port
+  ##
