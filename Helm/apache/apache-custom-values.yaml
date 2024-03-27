@@ -1,6 +1,6 @@
 ## @param replicaCount Number of replicas of the Apache deployment
 ##
-replicaCount: 2
+replicaCount: 4
 ## Apache service parameters
 ##
 service:
